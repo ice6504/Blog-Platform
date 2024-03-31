@@ -6,7 +6,7 @@ function CardTop() {
       <figure>
         <img
           className="w-full"
-          src="https://loremflickr.com/cache/resized/65535_53607435549_ee2d9d3674_z_640_480_nofilter.jpg"
+          src="https://images.pexels.com/photos/804475/pexels-photo-804475.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="Topic"
         />
       </figure>

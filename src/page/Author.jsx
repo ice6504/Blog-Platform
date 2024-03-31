@@ -7,7 +7,7 @@ function Author() {
         <header>
           <img
             className="w-full h-96 sm:h-[30rem] object-cover"
-            src="https://loremflickr.com/cache/resized/65535_52843600629_ea5a429d0b_z_640_480_nofilter.jpg"
+            src="https://images.pexels.com/photos/248350/pexels-photo-248350.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
         </header>
@@ -15,7 +15,7 @@ function Author() {
           <div className="flex flex-col items-center gap-3 sm:gap-4">
             <div className="avatar">
               <div className="w-24 ring-4 ring-primary rounded-full">
-                <img src="https://loremflickr.com/cache/resized/65535_53453809970_07bb2ddf87_c_640_480_nofilter.jpg" />
+                <img src="https://images.pexels.com/photos/1576193/pexels-photo-1576193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
               </div>
             </div>
             <div className="text-primary font-semibold text-3xl sm:text-5xl">

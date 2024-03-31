@@ -7,7 +7,7 @@ function Blog() {
       <header>
         <img
           className="w-full h-96 object-cover sm:h-[30rem]"
-          src="https://loremflickr.com/cache/resized/65535_53431558497_80642664bc_z_640_480_nofilter.jpg"
+          src="https://images.pexels.com/photos/1359307/pexels-photo-1359307.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt=""
         />
       </header>
@@ -23,7 +23,7 @@ function Blog() {
               <Link to="/author" className="flex items-center gap-2">
                 <div className="avatar">
                   <div className="w-7 rounded-full">
-                    <img src="https://loremflickr.com/cache/resized/65535_53453809970_07bb2ddf87_c_640_480_nofilter.jpg" />
+                    <img src="https://images.pexels.com/photos/1576193/pexels-photo-1576193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
                   </div>
                 </div>
                 <span className="font-medium text-lg text-secondary">
@@ -55,7 +55,7 @@ function Blog() {
             <figure className="my-4">
               <img
                 className="w-full h-96 object-cover"
-                src="https://loremflickr.com/cache/resized/65535_53315817375_8df48d424b_z_640_480_nofilter.jpg"
+                src="https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
               />
             </figure>

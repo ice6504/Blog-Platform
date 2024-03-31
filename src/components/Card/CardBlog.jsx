@@ -7,7 +7,7 @@ function CardBlog() {
         <figure className="h-full sm:hover:shadow-xl md:hover:-translate-y-2 transition-all duration-300 ease-in-out">
           <img
             className="object-cover size-full rounded-xl"
-            src="https://loremflickr.com/cache/resized/65535_53431558497_80642664bc_z_640_480_nofilter.jpg"
+            src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
           />
         </figure>
