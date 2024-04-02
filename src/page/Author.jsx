@@ -45,8 +45,10 @@ function Author() {
               </a>
             </div>
           </div>
-          <h3 className="text-2xl sm:text-3xl font-medium">Lastest Blog</h3>
-          <div className="divider divider-neutral"></div>
+          <h3 className="text-2xl sm:text-3xl font-medium text-secondary">
+            Lastest Blog
+          </h3>
+          <div className="divider divider-secondary"></div>
           <div className="grid sm:grid-cols-3 gap-3">
             <CardBlog />
             <CardBlog />

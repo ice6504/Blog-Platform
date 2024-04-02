@@ -28,7 +28,7 @@ function Navbar() {
             <i className={classIcon}></i>
           </button>
           <Link
-            className="first-letter:text-2xl first-letter:text-secondary font-semibold text-xl text-white lg:px-4"
+            className="first-letter:text-2xl first-letter:text-secondary font-semibold text-xl text-white lg:px-4 active:scale-90 transition-all"
             to="/"
             onClick={closeSidebar}
           >
@@ -62,7 +62,10 @@ function Navbar() {
           >
             Sign Up
           </Link>
-          <Link to="/" className="btn btn-circle w-16 sm:w-24 sm:text-lg">
+          <Link
+            to="/"
+            className="btn btn-secondary btn-circle w-16 sm:w-24 sm:text-lg"
+          >
             Sign In
           </Link>
         </div>

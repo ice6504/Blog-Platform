@@ -21,7 +21,7 @@ export default {
           "base-100": "#ffffff",
         },
         draktheme: {
-          primary: "#0D1B46",
+          primary: "#1f41ab",
           secondary: "#65BCBF",
           accent: "#37cdbe",
           neutral: "#000000",

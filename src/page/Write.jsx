@@ -88,7 +88,7 @@ function Write() {
           <div className="flex justify-center">
             <button
               type="summit"
-              className="btn btn-secondary btn-lg text-base-100 text-3xl"
+              className="btn btn-secondary btn-lg text-white text-3xl"
             >
               สร้าง
             </button>
