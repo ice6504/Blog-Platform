@@ -7,5 +7,6 @@
     font-family: "Mitr", sans-serif;
     font-style: normal;
     scroll-behavior: smooth;
+    transition: 0.3s;
   }
 }

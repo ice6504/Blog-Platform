@@ -79,7 +79,7 @@ function Blog() {
           </div>
         </div>
       </main>
-      <footer className="bg-primary text-base-100 py-8 px-4 sm:px-10">
+      <footer className="bg-primary min-h-60 space-y-5 text-white py-8 px-4 sm:px-10">
         <h3 className="text-4xl font-medium">COMMENT</h3>
         <div className="flex justify-center items-center gap-2 p-4">
           <i className="fa-solid fa-user fa-2xl mr-3"></i>
@@ -88,9 +88,9 @@ function Blog() {
             placeholder="แสดงความคิดเห็น"
             className="w-full h-10 bg-transparent outline-none text-white border-b-2 border-[#7e8081]"
           />
-          <div className="btn btn-ghost btn-no">
+          <button className="btn btn-xs btn-ghost hover:bg-transparent">
             <i className="fa-solid fa-location-arrow fa-2xl"></i>
-          </div>
+          </button>
         </div>
       </footer>
     </div>

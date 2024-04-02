@@ -4,9 +4,9 @@ function CardBlog() {
   return (
     <div className="flex flex-col gap-y-2">
       <Link to="/Blog">
-        <figure className="h-full sm:hover:shadow-xl md:hover:-translate-y-2 transition-all duration-300 ease-in-out">
+        <figure className="h-full">
           <img
-            className="object-cover size-full rounded-xl"
+            className="object-cover size-full rounded-xl sm:hover:shadow-xl md:hover:-translate-y-2 transition-all duration-300 ease-in-out"
             src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
           />

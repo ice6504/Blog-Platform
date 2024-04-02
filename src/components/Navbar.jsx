@@ -22,13 +22,13 @@ function Navbar() {
         <div className="navbar-start max-sm:gap-x-2">
           <button
             tabIndex={0}
-            className="btn btn-ghost w-10 text-base-100 hover:bg-transparent lg:hidden"
+            className="btn btn-ghost w-10 text-white hover:bg-transparent lg:hidden"
             onClick={toggleSidebar}
           >
             <i className={classIcon}></i>
           </button>
           <Link
-            className="first-letter:text-2xl first-letter:text-secondary font-semibold text-xl text-base-100 lg:px-4"
+            className="first-letter:text-2xl first-letter:text-secondary font-semibold text-xl text-white lg:px-4"
             to="/"
             onClick={closeSidebar}
           >
@@ -36,19 +36,19 @@ function Navbar() {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal text-base-100 font-medium text-lg px-1 focus:text-base-100">
+          <ul className="menu menu-horizontal text-white font-medium text-lg px-1 focus:text-white">
             <li>
-              <Link className="focus:text-base-100" to="/blog">
+              <Link className="focus:text-white" to="/blog">
                 Blog<i className="fa-regular fa-folder"></i>
               </Link>
             </li>
             <li>
-              <Link className="focus:text-base-100" to="/write">
+              <Link className="focus:text-white" to="/write">
                 Write<i className="fa-solid fa-pen-to-square"></i>
               </Link>
             </li>
             <li>
-              <Link className="focus:text-base-100" to="/search">
+              <Link className="focus:text-white" to="/search">
                 Search
                 <i className="fa-solid fa-magnifying-glass"></i>
               </Link>
@@ -58,7 +58,7 @@ function Navbar() {
         <div className="navbar-end">
           <Link
             to="/"
-            className="btn btn-ghost text-base-100 sm:w-[6.5rem] sm:text-lg hover:bg-transparent"
+            className="btn btn-ghost text-white sm:w-[6.5rem] sm:text-lg hover:bg-transparent"
           >
             Sign Up
           </Link>
@@ -68,7 +68,7 @@ function Navbar() {
         </div>
       </div>
       {isSidebarOpen ? (
-        <ul className="menu text-base-100 text-lg h-screen blog lg:hidden">
+        <ul className="menu text-white text-lg h-screen blog lg:hidden">
           <li onClick={closeSidebar}>
             <Link to="/blog">
               Blog<i className="fa-regular fa-folder"></i>

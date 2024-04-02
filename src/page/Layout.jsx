@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import ThemeController from "../components/ThemeController";
 import Navbar from "../components/Navbar";
 
 function Layout() {
@@ -6,6 +7,7 @@ function Layout() {
     <>
       <Navbar />
       <Outlet />
+      <ThemeController />
     </>
   );
 }

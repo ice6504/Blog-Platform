@@ -20,6 +20,13 @@ export default {
           neutral: "#000000",
           "base-100": "#ffffff",
         },
+        draktheme: {
+          primary: "#0D1B46",
+          secondary: "#65BCBF",
+          accent: "#37cdbe",
+          neutral: "#000000",
+          "base-100": "#2d2d2d",
+        },
       },
     ],
   },
