@@ -1,5 +1,8 @@
 import CardBlog from "../components/Card/CardBlog";
 
+// data
+import data_Blog from "../data/blog.json";
+
 function Search() {
   return (
     <div className="min-h-screen container mx-auto space-y-5 pt-20 pb-5 px-5 lg:px-16">
@@ -12,9 +15,9 @@ function Search() {
           <h2 className="text-5xl font-medium text-primary">คุณอาจจะชื่นชอบ</h2>
           <div className="divider divider-primary"></div>
           <div className="flex gap-5 max-sm:flex-col">
-            <CardBlog />
-            <CardBlog />
-            <CardBlog />
+            {data_Blog.blogs.slice(4, 7).map((data) => {
+              return <CardBlog key={data.id} data={data} />;
+            })}
           </div>
         </div>
       </main>

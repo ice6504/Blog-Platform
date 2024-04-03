@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
-function CardBlog() {
+function CardBlog(props) {
+  const { data } = props;
   return (
     <div className="flex flex-col gap-y-2">
-      <Link to="/Blog">
+      <Link to="/blog">
         <figure className="h-full">
           <img
             className="object-cover size-full rounded-xl sm:hover:shadow-xl md:hover:-translate-y-2 transition-all duration-300 ease-in-out"
@@ -13,20 +15,22 @@ function CardBlog() {
         </figure>
       </Link>
       <Link
-        to="/Blog"
+        to="/blog"
         className="text-2xl font-semibold text-primary transition-all duration-300 hover:text-secondary"
       >
-        Topic
+        {data.title}
       </Link>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.
-      </p>
-      <div className="flex gap-2">
-        <div className="badge badge-lg badge-outline py-4">Lasted</div>
-        <div className="badge badge-lg badge-outline py-4">Education</div>
+      <p>{data.content}</p>
+      <div className="flex items-end justify-between pr-1">
+        <div className="badge badge-md badge-outline py-4">{data.category}</div>
+        <div className="text-sm">
+          <i className="fa-solid fa-eye"></i> {data.views}
+        </div>
       </div>
     </div>
   );
 }
+
+CardBlog.propTypes = { data: PropTypes.object.isRequired };
 
 export default CardBlog;

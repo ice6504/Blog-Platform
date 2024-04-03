@@ -4,97 +4,109 @@
       "id": 1,
       "title": "น้องมิว",
       "category": "Pixiebob",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "John Doe",
-      "views": 1200
+      "views": 1200,
+      "Trending": false
     },
     {
       "id": 2,
       "title": "น้องเชาเชา",
       "category": "American Curl",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Jane Doe",
-      "views": 800
+      "views": 800,
+      "Trending": false
     },
     {
       "id": 3,
       "title": "น้องการ์ฟิลด์",
       "category": "Nebelung",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Jane Doe",
-      "views": 354
+      "views": 354,
+      "Trending": true
     },
     {
       "id": 4,
       "title": "น้องโจอี้",
       "category": "LaPerm",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Jack O.",
-      "views": 245
+      "views": 245,
+      "Trending": false
     },
     {
       "id": 5,
       "title": "น้องชอปเปอร์",
       "category": "Nebelung",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Guido V.",
-      "views": 404
+      "views": 404,
+      "Trending": false
     },
     {
       "id": 6,
       "title": "น้องไทเกอร์",
       "category": "LaPerm",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "John Doe",
-      "views": 3643
+      "views": 3643,
+      "Trending": true
     },
     {
       "id": 7,
       "title": "น้องแซลมอน",
       "category": "Pixiebob",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Jane Doe",
-      "views": 1371
+      "views": 1371,
+      "Trending": false
     },
     {
       "id": 8,
       "title": "น้องคอฟฟี่",
       "category": "American Curl",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Coffee man",
-      "views": 99
+      "views": 99,
+      "Trending": true
     },
     {
       "id": 9,
       "title": "น้องทาโก้",
       "category": "American Curl",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Mr.Game",
-      "views": 1112
+      "views": 1112,
+      "Trending": false
     },
     {
       "id": 10,
       "title": "น้องทอฟฟี่",
       "category": "Pixiebob",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Mr.Bank",
-      "views": 7679
+      "views": 7679,
+      "Trending": true
     },
     {
       "id": 11,
       "title": "น้องฝันดี",
       "category": "LaPerm",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Jane Doe",
-      "views": 108
+      "views": 108,
+      "Trending": true
     },
     {
       "id": 12,
       "title": "น้องสีนวล",
       "category": "Nebelung",
-      "content": "Lorem ipsum...",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, velit.",
       "author": "Santa Claus",
-      "views": 2512
+      "views": 2512,
+      "Trending": true
     }
   ],
   "statistics": {

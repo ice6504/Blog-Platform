@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CardBlog from "../components/Card/CardBlog";
+import blog_Data from "../data/blog.json";
 
 function Blog() {
   return (
@@ -73,8 +74,11 @@ function Blog() {
             </h2>
             <div className="divider divider-primary"></div>
             <div className="grid gap-4">
-              <CardBlog />
-              <CardBlog />
+              {blog_Data.blogs.slice(5, 7).map((data) => {
+                return <CardBlog key={data.id} data={data} />;
+              })}
+
+              {/* <CardBlog /> */}
             </div>
           </div>
         </div>

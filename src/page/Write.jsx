@@ -31,7 +31,7 @@ function Write() {
       <form className="min-h-screen">
         <div className="w-full pt-16 h-72 sm:h-96 grid place-items-center border-4 border-dashed border-primary rounded-xl">
           <div className="flex flex-col items-center gap-12">
-            <div className="opacity-30 text-5xl sm:text-8xl text-primary">
+            <div className="text-5xl sm:text-8xl text-primary/10">
               <i className="fa-solid fa-images "></i> <span>เพิ่มรูปภาพ</span>
             </div>
             <label htmlFor="img" className="btn btn-primary">
