@@ -1,7 +1,7 @@
 function ThemeController() {
   return (
     <div className="z-30 fixed bottom-5 right-5">
-      <label className="btn btn-circle shadow-xl btn-secondary btn-lg swap swap-rotate text-base-100">
+      <label className="btn btn-circle drop-shadow-2xl btn-secondary btn-lg swap swap-rotate text-base-100">
         {/* this hidden checkbox controls the state */}
         <input type="checkbox" className="theme-controller" value="draktheme" />
 

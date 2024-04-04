@@ -1,30 +1,42 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-// Pages
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+// page
 import Layout from "./page/Layout";
 import Home from "./page/Home";
+import Category from "./page/Category";
 import Blog from "./page/Blog";
 import Write from "./page/Write";
 import Author from "./page/Author";
 import Search from "./page/Search";
 import Error from "./page/Error";
 
-function App() {
+// ScrollToTop component
+import ScrollToTop from "./components/ScrollToTop";
+
+const routes = [
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "category", element: <Category /> },
+      { path: "blog", element: <Blog /> },
+      { path: "write", element: <Write /> },
+      { path: "author", element: <Author /> },
+      { path: "search", element: <Search /> },
+      { path: "*", element: <Error /> },
+    ],
+  },
+];
+
+const router = createBrowserRouter(routes);
+
+const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="blog" element={<Blog />} />
-            <Route path="write" element={<Write />} />
-            <Route path="author" element={<Author />} />
-            <Route path="search" element={<Search />} />
-            <Route path="*" element={<Error />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <RouterProvider router={router}>
+      <ScrollToTop />
+    </RouterProvider>
   );
-}
+};
 
 export default App;

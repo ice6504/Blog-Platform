@@ -38,8 +38,8 @@ function Navbar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal text-white font-medium text-lg px-1 focus:text-white">
             <li>
-              <Link className="focus:text-white" to="/blog">
-                Blog<i className="fa-regular fa-folder"></i>
+              <Link className="focus:text-white" to="/category">
+                Category<i className="fa-regular fa-folder"></i>
               </Link>
             </li>
             <li>
@@ -71,10 +71,10 @@ function Navbar() {
         </div>
       </div>
       {isSidebarOpen ? (
-        <ul className="menu text-white text-lg h-screen blog lg:hidden">
+        <ul className="menu text-white text-lg h-screen lg:hidden">
           <li onClick={closeSidebar}>
-            <Link to="/blog">
-              Blog<i className="fa-regular fa-folder"></i>
+            <Link to="/category">
+              Category<i className="fa-regular fa-folder"></i>
             </Link>
           </li>
           <li onClick={closeSidebar}>

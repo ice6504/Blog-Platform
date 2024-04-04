@@ -1,5 +1,7 @@
 import CardBlog from "../components/Card/CardBlog";
 
+import data_Blog from "../data/blog.json";
+
 function Author() {
   return (
     <>
@@ -50,9 +52,12 @@ function Author() {
           </h3>
           <div className="divider divider-secondary"></div>
           <div className="grid sm:grid-cols-3 gap-3">
+            {data_Blog.blogs.slice(4, 7).map((data) => {
+              return <CardBlog key={data.id} data={data} />;
+            })}
+            {/* <CardBlog />
             <CardBlog />
-            <CardBlog />
-            <CardBlog />
+            <CardBlog /> */}
           </div>
         </main>
       </div>

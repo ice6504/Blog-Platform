@@ -7,12 +7,12 @@ function CardTrending(props) {
     <div>
       <div className="flex gap-5">
         <div>
-          <span className="text-black/40 text-2xl">0{index}</span>
+          <span className="text-neutral-content/90 text-2xl">0{index}</span>
         </div>
         <div className="space-y-2">
           <Link to="/blog">
             <img
-              className="object-cover w-full h-28 rounded-md sm:hover:object-top transition-all duration-500"
+              className="object-cover w-full h-40 rounded-md sm:hover:object-top transition-all duration-500"
               src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             />
           </Link>
