@@ -23,7 +23,7 @@ function CardTop() {
             to="/Blog"
             className="btn btn-primary sm:btn-lg text-lg sm:text-xl"
           >
-            Read More
+            อ่านเพิ่มเติม
           </Link>
         </div>
       </div>

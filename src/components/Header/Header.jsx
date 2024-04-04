@@ -18,7 +18,7 @@ function Header() {
               Meaw Blog
             </h1>
           </div>
-          <button className="btn btn-primary sm:btn-lg">Lean more</button>
+          <button className="btn btn-primary sm:btn-lg">Learn more</button>
         </div>
       </div>
     </div>

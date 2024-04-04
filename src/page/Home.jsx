@@ -5,6 +5,7 @@ import CardSide from "../components/Card/CardSide";
 import CardTrending from "../components/Card/CardTrending";
 import Header from "../components/Header/Header";
 import Section from "../components/Section";
+import Statistics from "../components/Stat/Statistics";
 
 //data
 import blog_Data from "../data/blog.json";
@@ -41,6 +42,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <Statistics />
         <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
           {blog_Data.blogs.slice(6, 12).map((data) => {
             return <CardBlog key={data.id} data={data} />;

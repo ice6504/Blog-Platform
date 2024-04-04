@@ -109,8 +109,18 @@
       "Trending": true
     }
   ],
-  "statistics": {
-    "totalBlogs": 12,
-    "totalViews": 4000
-  }
+  "statistics": [
+    {
+      "title": "Blogs",
+      "total": 12
+    },
+    {
+      "title": "Category",
+      "total": 4
+    },
+    {
+      "title": "Views",
+      "total": 4200
+    }
+  ]
 }
