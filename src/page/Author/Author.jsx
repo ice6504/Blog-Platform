@@ -1,5 +1,5 @@
 import CardBlog from "../../components/Card/CardBlog";
-
+import avater from "../../assets/img/Author.jpeg"
 import data_Blog from "../../data/blog.json";
 
 function Author() {
@@ -17,7 +17,7 @@ function Author() {
           <div className="flex flex-col items-center gap-3 sm:gap-4">
             <div className="avatar">
               <div className="w-24 ring-4 ring-primary rounded-full">
-                <img src="https://images.pexels.com/photos/1576193/pexels-photo-1576193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                <img src={avater} alt="Author Profile" />
               </div>
             </div>
             <div className="text-primary font-semibold text-3xl sm:text-5xl">

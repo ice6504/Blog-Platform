@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import CardBlog from "../../components/Card/CardBlog";
 import blog_Data from "../../data/blog.json";
+import avatar from "../../assets/img/Author.jpeg"
 
 function Blog() {
   return (
@@ -24,7 +25,7 @@ function Blog() {
               <Link to="/author" className="flex items-center gap-2">
                 <div className="avatar">
                   <div className="w-7 rounded-full">
-                    <img src="https://images.pexels.com/photos/1576193/pexels-photo-1576193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                    <img src={avatar} />
                   </div>
                 </div>
                 <span className="font-medium text-lg text-secondary">
