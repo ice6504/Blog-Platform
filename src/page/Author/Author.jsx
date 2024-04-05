@@ -1,6 +1,6 @@
-import CardBlog from "../components/Card/CardBlog";
+import CardBlog from "../../components/Card/CardBlog";
 
-import data_Blog from "../data/blog.json";
+import data_Blog from "../../data/blog.json";
 
 function Author() {
   return (

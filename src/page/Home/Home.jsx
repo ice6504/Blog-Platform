@@ -1,14 +1,14 @@
 // components
-import CardBlog from "../components/Card/CardBlog";
-import CardTop from "../components/Card/CardTop";
-import CardSide from "../components/Card/CardSide";
-import CardTrending from "../components/Card/CardTrending";
-import Header from "../components/Header/Header";
-import Section from "../components/Section";
-import Statistics from "../components/Stat/Statistics";
+import CardBlog from "../../components/Card/CardBlog";
+import CardTop from "../../components/Card/CardTop";
+import CardSide from "../../components/Card/CardSide";
+import CardTrending from "../../components/Card/CardTrending";
+import Header from "../../components/Header/Header";
+import Section from "../../components/Section";
+import Statistics from "../../components/Stat/Statistics";
 
 //data
-import blog_Data from "../data/blog.json";
+import blog_Data from "../../data/blog.json";
 
 function Home() {
   let i = 0;

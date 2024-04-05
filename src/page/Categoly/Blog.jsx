@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import CardBlog from "../components/Card/CardBlog";
-import blog_Data from "../data/blog.json";
+import CardBlog from "../../components/Card/CardBlog";
+import blog_Data from "../../data/blog.json";
 
 function Blog() {
   return (

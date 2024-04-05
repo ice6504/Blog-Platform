@@ -1,14 +1,14 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // page
-import Layout from "./page/Layout";
-import Home from "./page/Home";
-import Category from "./page/Category";
-import Blog from "./page/Blog";
-import Write from "./page/Write";
-import Author from "./page/Author";
-import Search from "./page/Search";
-import Error from "./page/Error";
+import Layout from "./layouts/Layout";
+import Home from "./page/Home/Home";
+import Category from "./page/Categoly/Category";
+import Blog from "./page/Categoly/Blog";
+import Write from "./page/Write/Write";
+import Author from "./page/Author/Author";
+import Search from "./page/Search/Search";
+import Error from "./page/PageNotFound/Error";
 
 // ScrollToTop component
 import ScrollToTop from "./components/ScrollToTop";
