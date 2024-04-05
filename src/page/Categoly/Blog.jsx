@@ -77,8 +77,6 @@ function Blog() {
               {blog_Data.blogs.slice(5, 7).map((data) => {
                 return <CardBlog key={data.id} data={data} />;
               })}
-
-              {/* <CardBlog /> */}
             </div>
           </div>
         </div>

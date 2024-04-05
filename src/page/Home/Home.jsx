@@ -4,7 +4,7 @@ import CardTop from "../../components/Card/CardTop";
 import CardSide from "../../components/Card/CardSide";
 import CardTrending from "../../components/Card/CardTrending";
 import Header from "../../components/Header/Header";
-import Section from "../../components/Section";
+import Section from "../../components/Section/Section";
 import Statistics from "../../components/Stat/Statistics";
 
 //data

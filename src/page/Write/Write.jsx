@@ -31,12 +31,12 @@ function Write() {
     <>
       <form onSubmit={handleSubmit} className="form-control min-h-screen">
         <div className="w-full pt-16 h-72 sm:h-96 grid place-items-center border-4 border-dashed border-primary rounded-xl">
-          <div className="flex flex-col items-center gap-12">
-            <div className="text-5xl sm:text-8xl text-primary-content/40">
-              <i className="fa-solid fa-images "></i>{" "}
+          <div className="flex flex-col items-center gap-6 sm:gap-12">
+            <div className="flex items-center gap-2 sm:gap-5 max-sm:flex-col text-5xl sm:text-8xl text-primary-content/40">
+              <i className="fa-solid fa-images "></i>
               <span>เพิ่มรูปหน้าปก</span>
             </div>
-            <label htmlFor="img" className="btn btn-primary">
+            <label htmlFor="img" className="btn btn-primary max-sm:btn-sm">
               เลือกรูปภาพ
             </label>
             <input type="file" id="img" className="hidden" />

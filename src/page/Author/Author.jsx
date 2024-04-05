@@ -23,41 +23,38 @@ function Author() {
             <div className="text-primary font-semibold text-3xl sm:text-5xl">
               <h1>Author Name</h1>
             </div>
-            <div className="flex items-center gap-3 sm:text-xl">
+            <div className="flex items-center gap-3 text-primary sm:text-xl">
               <a
                 href="#"
                 className="tooltip tooltip-bottom"
                 data-tip="Facebook"
               >
-                <i className="fa-brands fa-facebook fa-2xl"></i>
+                <i className="fa-brands fa-facebook fa-xl"></i>
               </a>
               <a
                 href="#"
                 className="tooltip tooltip-bottom"
                 data-tip="X Twitter"
               >
-                <i className="fa-brands fa-x-twitter fa-2xl"></i>
+                <i className="fa-brands fa-x-twitter fa-xl"></i>
               </a>
               <a
                 href="#"
                 className="tooltip tooltip-bottom"
                 data-tip="Instagram"
               >
-                <i className="fa-brands fa-instagram fa-2xl"></i>
+                <i className="fa-brands fa-instagram fa-xl"></i>
               </a>
             </div>
           </div>
           <h3 className="text-2xl sm:text-3xl font-medium text-secondary">
-            Lastest Blog
+            Lastest
           </h3>
           <div className="divider divider-secondary"></div>
           <div className="grid sm:grid-cols-3 gap-3">
             {data_Blog.blogs.slice(4, 7).map((data) => {
               return <CardBlog key={data.id} data={data} />;
             })}
-            {/* <CardBlog />
-            <CardBlog />
-            <CardBlog /> */}
           </div>
         </main>
       </div>

@@ -3,7 +3,7 @@ import Logo from "/src/assets/Logo.png";
 function Header() {
   return (
     <div
-      className="hero min-h-[90vh] xl:pt-10"
+      className="hero min-h-[90svh] xl:pt-10"
       style={{
         backgroundImage:
           "url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",

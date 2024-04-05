@@ -10,9 +10,6 @@ import Author from "./page/Author/Author";
 import Search from "./page/Search/Search";
 import Error from "./page/PageNotFound/Error";
 
-// ScrollToTop component
-import ScrollToTop from "./components/ScrollToTop";
-
 const routes = [
   {
     path: "/",
@@ -32,11 +29,7 @@ const routes = [
 const router = createBrowserRouter(routes);
 
 const App = () => {
-  return (
-    <RouterProvider router={router}>
-      <ScrollToTop />
-    </RouterProvider>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 };
 
 export default App;
