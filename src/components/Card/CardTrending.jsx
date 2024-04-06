@@ -12,8 +12,8 @@ function CardTrending(props) {
         <div className="space-y-2">
           <Link to="/blog">
             <img
-              className="object-cover w-full h-40 rounded-md sm:hover:object-top transition-all duration-500"
-              src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              className="object-cover object-center w-full h-40 rounded-md sm:hover:object-top transition-all duration-500"
+              src={data.img}
             />
           </Link>
           <div>

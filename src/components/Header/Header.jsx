@@ -3,10 +3,10 @@ import Logo from "/src/assets/Logo.png";
 function Header() {
   return (
     <div
-      className="hero min-h-[90svh] xl:pt-10"
+      className="hero min-h-[90svh] xl:bg-right-top xl:pt-10"
       style={{
         backgroundImage:
-          "url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+          "url(https://images.pexels.com/photos/1576193/pexels-photo-1576193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>

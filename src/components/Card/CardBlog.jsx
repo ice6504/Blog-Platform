@@ -8,8 +8,8 @@ function CardBlog(props) {
       <Link to="/blog">
         <figure className="h-full">
           <img
-            className="object-cover size-full rounded-xl sm:hover:shadow-xl md:hover:-translate-y-2 transition-all duration-300 ease-in-out"
-            src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            className="h-72 object-cover size-full rounded-xl sm:hover:shadow-xl md:hover:-translate-y-2 transition-all duration-300 ease-in-out"
+            src={data.img}
             alt=""
           />
         </figure>
