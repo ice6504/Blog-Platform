@@ -33,12 +33,12 @@ function Home() {
           {/* Recommend */}
           <div className="grid gap-5 sm:grid-cols-4">
             <div className="sm:col-span-3">
-              <CardTop />
+              <CardTop data={blog_Data.blogs[0]} />
             </div>
             <div className="flex sm:flex-col gap-5">
-              <CardSide />
-              <CardSide />
-              <CardSide />
+              {blog_Data.blogs.slice(8, 11).map((data) => {
+                return <CardSide key={data.id} data={data} />;
+              })}
             </div>
           </div>
         </div>
