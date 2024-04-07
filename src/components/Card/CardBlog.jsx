@@ -10,7 +10,7 @@ function CardBlog(props) {
           <img
             className="h-72 object-cover size-full rounded-xl sm:hover:shadow-xl md:hover:-translate-y-2 transition-all duration-300 ease-in-out"
             src={data.img}
-            alt=""
+            alt={data.title}
           />
         </figure>
       </Link>
