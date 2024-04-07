@@ -9,7 +9,7 @@ function Category() {
   console.log(select);
 
   return (
-    <div className="pt-24 sm:pt-28 pb-5 container mx-auto space-y-6 px-5 sm:px-16">
+    <div className="pt-24 sm:pt-28 pb-8 container mx-auto space-y-6 px-5 sm:px-16">
       <select
         className="select select-primary w-full sm:select-lg"
         value={select}
@@ -24,7 +24,7 @@ function Category() {
         <option value="Nebelung">Nebelung</option>
         <option value="LaPerm">LaPerm</option>
       </select>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {Blog_data.blogs.map((data) => {
           if (select === "All" || data.category === select) {
             return <CardBlog key={data.id} data={data} />;
